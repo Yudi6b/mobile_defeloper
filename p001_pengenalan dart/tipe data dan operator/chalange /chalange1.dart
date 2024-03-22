@@ -1,10 +1,10 @@
 void main() {
   // mendeklarasi variabel sesuai persyaratan challenge !
-  String nama = 'novan rsdy'; // tipe data string
+  String nama = 'Yudi'; // tipe data string
   int tahunBerdiri = 2021; // tipe data int
-  String pemilik = 'novan rsdy'; // tipe data string
-  String alamat = 'bengkalis'; // tipe data string
-  String telepon = '082284852905';  // tipe data string
+  String pemilik = 'Yudi'; // tipe data string
+  String alamat = 'siak kecil'; // tipe data string
+  String telepon = '08228818737';  // tipe data string
   bool statusBuka = false; // tipe data boolean
 
   List<Map> makanan = [

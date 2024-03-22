@@ -1,8 +1,8 @@
 void main() {
   RekeningBank rekeningElana = new RekeningBank();
-  rekeningElana.namaPemilik = 'Elana Karisma';
+  rekeningElana.namaPemilik = 'Yudi';
   rekeningElana.namaBank = 'BRI';
-  rekeningElana.saldo = 1000000;
+  rekeningElana.saldo = 5000000;
 
   print(rekeningElana.saldo);
   print(rekeningElana.namaBank);
@@ -13,7 +13,7 @@ void main() {
 
   // membuat objek baru
   RekeningBank rekeningela = new RekeningBank(
-      namaPemilik: 'Elana Karisma', namaBank: 'BNI', saldo: 50000000);
+      namaPemilik: 'Yudi', namaBank: 'BNI', saldo: 90000000);
 
   print(rekeningela.namaPemilik);
   print(rekeningela.namaBank);
@@ -22,9 +22,9 @@ void main() {
   print('---------------------');
 
   RekeningBank rekeningKaris = new RekeningBank(
-    namaPemilik: 'Karisma',
+    namaPemilik: 'Yud',
     namaBank: 'Bank Syariah',
-    saldo: 15000000,
+    saldo: 140000000,
   );
 
   print(rekeningKaris.getPemilik);
@@ -32,7 +32,7 @@ void main() {
   print(rekeningKaris.saldo);
   rekeningKaris.setSaldo = 25000000;
   print(rekeningKaris.saldo);
-  rekeningKaris.setNamaPemilik = 'Elana Karismaaaa';
+  rekeningKaris.setNamaPemilik = 'Yudiiii';
   rekeningKaris.setNamaBank = 'BCA';
   print(rekeningKaris.getPemilik);
   print(rekeningKaris.getBank);

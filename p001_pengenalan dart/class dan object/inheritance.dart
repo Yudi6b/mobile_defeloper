@@ -2,13 +2,13 @@
 atau menurunkan class properti ataupun method pada suatu class kepada yg lainnya*/
 void main() {
   print('----Mobil----');
-  Mobil avanza = new Mobil(roda: 4);
-  print(avanza.suaraklakson);
-  avanza.jumlahRoda(avanza.roda);
+  Mobil toyota = new Mobil(roda: 4);
+  print(toyota.suaraklakson);
+  toyota.jumlahRoda(toyota.roda);
 
   print('----Motor----');
-  Motor beat = new Motor(roda: 2);
-  beat.jumlahRoda(beat.roda);
+  Motor mio = new Motor(roda: 2);
+  mio.jumlahRoda(mio.roda);
 }
 
 class Kendaraan {

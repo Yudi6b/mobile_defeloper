@@ -21,10 +21,10 @@ void main() {
  
   
 
-  String nama = 'Nuras';
-  if(nama == 'Nuras'){
-    print('Ini Nuras');
+  String nama = 'Yudi';
+  if(nama == 'Yudi'){
+    print('Ini Yudi');
   } else {
-    print('Ini bukan Nuras');
+    print('Ini bukan Yudi');
   }
 }

@@ -14,7 +14,7 @@ void main () {
   }
 
  
-  List daftarMakanan = ['Sate', 'Mie Sagu', 'Ayam Bakar'];
+  List daftarMakanan = ['Sate Kulit', 'Mie Goreng', 'Ayam Santan'];
   int index = 0;
   print(daftarMakanan);
   while(index < daftarMakanan.length) {

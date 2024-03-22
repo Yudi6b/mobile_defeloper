@@ -2,12 +2,12 @@ void main() {
   // membuat map dengan var yang sifatnya dinamik
   // Map seperti list dimana sekumpulan data, hanya saja menggunakan kurung kurawal {}
   // dan jika di list menggunakan index, maka di map menggunakan 'key': 'value'
-  var mahasiswa1 = {'Nama': 'novan', 'Usia': 21, 'NIM': '64042xxx'};
+  var mahasiswa1 = {'Nama': 'Yudi', 'Usia': 21, 'NIM': '64042xxx'};
 
   // Jika seperti di bawah, maka tidak akan bisa jika yang diinputkan adalah list
   // Map<Type Key, Type Value> nama_map = {'key': 'value'}
   Map<String, dynamic> mahasiswa3 = {
-    'Nama': 'novan rsd', 
+    'Nama': 'Yudi', 
     'Usia': 21,
     'NIM': '64042xxx'
   };
@@ -40,6 +40,6 @@ void main() {
   print(mahasiswa3);
 
   // Mengubah value map
-  mahasiswa3['Nama'] = 'novan';
+  mahasiswa3['Nama'] = 'Yudi';
   print(mahasiswa3);
 }

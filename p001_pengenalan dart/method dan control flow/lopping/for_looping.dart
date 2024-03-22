@@ -21,7 +21,7 @@ void main () {
   }
 
   //menggunakan for pada list
-  List daftarMakanan = ['Sate', 'Mie Sagu', 'Ayam Bakar'];
+  List daftarMakanan = ['Sate Kulit', 'Mie Goreng', 'Ayam Santan'];
   print('Daftar Makanan');  
   print(daftarMakanan);
   for(int i=0 ; i<daftarMakanan.length ; i++) {

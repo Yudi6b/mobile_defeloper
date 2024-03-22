@@ -7,7 +7,7 @@ void main() {
   /* ini untuk multi line */
 
   // String
-  var name = 'Voyager I';
+  var name = 'LuluChu I';
 
   // Integer
   var year = 1977;

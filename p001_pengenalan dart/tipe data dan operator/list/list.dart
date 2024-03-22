@@ -1,16 +1,16 @@
 void main() {
   // membuat list dengan var yang sifatnya dinamik
-  var mahasiswa = ['Lala', 'Baba', 'Popo'];
+  var mahasiswa = ['Lala', 'Lili', 'Lulu'];
 
   // membuat list yang hanya bisa menginputkan list
-  List mahasiswa2 = ['Lala', 'Baba', 'Pipi'];
+  List mahasiswa2 = ['Lala', 'Lili', 'Lulu'];
 
   // membuat list yang hanya bisa menginputkan list yang bertipe string
   // Jika yang diinputkan selain dari string, maka akan terjadi error
-  List<String> mahasiswa3 = ['Lili', 'Baba', 'Pipi'];
+  List<String> mahasiswa3 = ['Lala', 'Lili', 'Lulu'];
 
   // membuat list yang hanya bisa menginputkan list yang bertipe string
-  List<dynamic> mahasiswa4 = ['Lili', 'Bibi', 'Pipi'];
+  List<dynamic> mahasiswa4 = ['Lala', 'Lili', 'Lulu'];
 
   print(mahasiswa);
   print(mahasiswa2);
@@ -29,11 +29,11 @@ void main() {
   print(mahasiswa3.length);
 
   // Untuk menambahkan nilai pada suatu list
-  mahasiswa3.add('Azzuhra');
+  mahasiswa3.add('Rizki');
   print(mahasiswa3);
 
   // Untuk menambahkan list pada list
-  List<String> mahasiswaTambahan = ['Zulfa', 'Putra'];
+  List<String> mahasiswaTambahan = ['Sobirin', 'Agung'];
   mahasiswa3.addAll(mahasiswaTambahan);
   print(mahasiswa3);
 

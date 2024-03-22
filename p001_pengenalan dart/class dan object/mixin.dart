@@ -1,10 +1,10 @@
 // mixin digunakan untuk mewariskan 2 method sekaligus
 
 void main() {
-  Sapi sapi = new Sapi();
-  sapi.methodMamalia();
-  sapi.methodBerkakiEmpat();
-  sapi.methodSapi();
+  Kambing Kambing = new Kambing();
+  Kambing.methodMamalia();
+  Kambing.methodBerkakiEmpat();
+  Kambing.methodSapi();
 }
 
 /*untuk mewariskan 2 method sekaligus tidak bisa hanya menggunakan kata class
@@ -23,8 +23,8 @@ mixin BerkakiEmpat {
 
 // extand hanya dapat mewariskan satu method
 // jika ingin memwariska lebih dari 2 method menggunakan with
-class Sapi with Mamalia, BerkakiEmpat {
+class Kambing with Mamalia, BerkakiEmpat {
   void methodSapi() {
-    print('Method Sapi');
+    print('Method Kambing');
   }
 }

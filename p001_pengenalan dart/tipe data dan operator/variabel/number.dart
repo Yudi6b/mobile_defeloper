@@ -4,10 +4,10 @@ void main() {
   num angka = 23;
 
   // Untuk lebih spesifik, misalnya dengan menetapkan bahwa angka tersebut harus integer, awali dengan 'int'
-  int angka1 = 27;
+  int angka1 = 25;
 
   // Sedangkan untuk bilangan desimal/double, awali dengan double
-  double angka2 = 29.3;
+  double angka2 = 27.3;
 
   print(angka);
   print(angka1);
