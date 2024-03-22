@@ -3,25 +3,25 @@
 // di dalam class terdapat atribut/properti dan method/function
 
 void main() {
-  RekeningBank rekeningElana = new RekeningBank();
-  rekeningElana.namaPemilik = 'Elana Karisma';
-  rekeningElana.namaBank = 'BRI';
-  rekeningElana.saldo = 1000000;
+  RekeningBank rekeningYudi = new RekeningBank();
+  rekeningYudi.namaPemilik = 'Elana Karisma';
+  rekeningYudi.namaBank = 'BRI';
+  rekeningYudi.saldo = 5000000;
 
-  print(rekeningElana.saldo);
-  print(rekeningElana.namaBank);
-  print(rekeningElana.namaPemilik);
+  print(rekeningYudi.saldo);
+  print(rekeningYudi.namaBank);
+  print(rekeningYudi.namaPemilik);
 
-  rekeningElana.ceksaldo();
+  rekeningYudi.ceksaldo();
 
   // membuat objek baru
-  RekeningBank rekeningela = new RekeningBank(
-      namaPemilik: 'Elana Karisma', namaBank: 'BNI', saldo: 50000000);
+  RekeningBank rekeningYud = new RekeningBank(
+      namaPemilik: 'Elana Karisma', namaBank: 'BNI', saldo: 90000000);
 
-  print(rekeningela.saldo);
-  print(rekeningela.ceksaldo());
-  print(rekeningela.namaBank);
-  print(rekeningela.namaPemilik);
+  print(rekeningYud.saldo);
+  print(rekeningYud.ceksaldo());
+  print(rekeningYud.namaBank);
+  print(rekeningYud.namaPemilik);
 }
 
 class RekeningBank {

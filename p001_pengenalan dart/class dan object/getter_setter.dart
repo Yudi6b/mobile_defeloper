@@ -2,30 +2,30 @@
 dan bisa diambil kembali nilainya*/
 
 void main() {
-  RekeningBank rekeningElana = new RekeningBank();
-  rekeningElana.namaPemilik = 'Elana Karisma';
-  rekeningElana.namaBank = 'BRI';
-  rekeningElana.saldo = 1000000;
+  RekeningBank rekeningYudi = new RekeningBank();
+  rekeningYudi namaPemilik = 'Yudi';
+  rekeningYudi namaBank = 'BRI';
+  rekeningYudi saldo = 5000000;
 
-  print(rekeningElana.saldo);
-  print(rekeningElana.namaBank);
-  print(rekeningElana.namaPemilik);
+  print(rekeningYudi saldo);
+  print(rekeningYudi namaBank);
+  print(rekeningYudi namaPemilik);
 
-  rekeningElana.ceksaldo();
+  rekeningYudi.ceksaldo();
   print('-------------------------');
 
   // membuat objek baru
-  RekeningBank rekeningela = new RekeningBank(
-      namaPemilik: 'Elana Karisma', namaBank: 'BNI', saldo: 50000000);
+  RekeningBank rekeningYud = new RekeningBank(
+      namaPemilik: 'Yudi', namaBank: 'BNI', saldo: 90000000);
 
-  print(rekeningela.namaPemilik);
-  print(rekeningela.namaBank);
-  print(rekeningela.saldo);
-  rekeningela.ceksaldo();
+  print(rekeningYud.namaPemilik);
+  print(rekeningYud.namaBank);
+  print(rekeningYud.saldo);
+  rekeningYud.ceksaldo();
   print('---------------------');
 
   RekeningBank rekeningKaris = new RekeningBank(
-    namaPemilik: 'Karisma',
+    namaPemilik: 'Yudi',
     namaBank: 'Bank Syariah',
     saldo: 15000000,
   );
@@ -35,7 +35,7 @@ void main() {
   print(rekeningKaris.saldo);
   rekeningKaris.setSaldo = 25000000;
   print(rekeningKaris.saldo);
-  rekeningKaris.setNamaPemilik = 'Elana Karismaaaa';
+  rekeningKaris.setNamaPemilik = 'Yudiii';
   rekeningKaris.setNamaBank = 'BCA';
   print(rekeningKaris.getPemilik);
   print(rekeningKaris.getBank);

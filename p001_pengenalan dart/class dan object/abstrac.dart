@@ -2,15 +2,15 @@
 abstract class biasanya dibuat utk sebagai kerangka yang akan diwariskan sifatnya/properti dan methodnya ke kelas yang lain*/
 void main() {
   print('----Mobil----');
-  Mobil avanza = new Mobil(roda: 4);
-  print(avanza.suaraklakson);
-  avanza.jumlahRoda(avanza.roda);
-  avanza.berjalan(); //penambahan saat abstract class
+  Mobil toyota = new Mobil(roda: 4);
+  print(toyota.suaraklakson);
+  toyota.jumlahRoda(toyota.roda);
+  toyota.berjalan(); //penambahan saat abstract class
 
   print('----Motor----');
-  Motor beat = new Motor(roda: 2);
-  beat.jumlahRoda(beat.roda);
-  beat.berjalan(); //penambahan saat abstract class
+  Motor mio = new Motor(roda: 2);
+  mio.jumlahRoda(mio.roda);
+  mio.berjalan(); //penambahan saat abstract class
 }
 
 // kita bisa membuat sebuah abstarct method juga
